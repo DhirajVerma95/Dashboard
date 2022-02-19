@@ -1,0 +1,150 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.navbar{
+  background-color: rgb(24, 28, 32);
+}
+.logo{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 5px;
+}
+img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+h4{
+  color: aliceblue;
+}
+
+ul li{
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  justify-content: space-between;
+  color: red;
+
+}
+.listItem{
+ display: flex;
+ flex-direction: row;
+ align-items: baseline;
+padding-top: 200px;
+}
+
+.barChart{
+  background-color: black;
+}
+.firstChild{
+  background-color: rgb(46, 45, 45);
+  border-radius: 12px;
+  margin: 10px;
+}
+.secondChild{
+  background-color: rgb(46, 45, 45);
+  border-radius: 12px;
+  margin: 10px;
+}
+.thirdChild{
+  background-color: rgb(46, 45, 45);
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.recharts-legend-item {
+ background-color: rgb(46, 45, 45); ;
+ font-size: 25px;
+}
+
+.tableContainer{
+  margin-right: 20px;
+}
+
+/* Todo List */
+.center_div{
+  line-height: 5px;
+  padding: 10px;
+}
+.addbtn{
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  border: none;
+}
+
+.todo_style{
+  line-height: 15px;
+  width:max-content;
+}
+
+.delbtn{
+  display: flex;
+  text-align: right;
+  text-align: right;
+}
+
+ol li {
+  padding-left: 30px;
+  text-align: right;
+ font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+ color: #8566aa;
+ text-transform: capitalize;
+ list-style: none;
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;  
+}
+
+input {
+  text-align: center;
+  color: white;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+  margin-right: 20px;
+}
+
+.addbtn {
+  width: 40px;
+  height: 40px;
+  background-color: #16a085 !important;
+  color: white !important;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 50% !important;
+}
+
+.clender{
+  background-color: #16a085;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+   
+  }
+  .SideBar{
+display: none;
+  }
+}
+
+

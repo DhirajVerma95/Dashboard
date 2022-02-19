@@ -1,0 +1,30 @@
+.maincontainer{
+  background-color: aquamarine;
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+lable{
+  font-size: 20px;
+  font-weight: 600;
+}
+.inputEmail{
+  margin: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+#email {
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+#password{
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 20px
+}
